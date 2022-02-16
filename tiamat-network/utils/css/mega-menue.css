@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 body {
     background: #fff;
+    font-family: 'Cairo', sans-serif;
 }
 
 * {
@@ -7,13 +9,14 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
 }
 
 nav {
     position: absolute;
     width: 100%;
     background: transparent;
-    font-size: 16px;
+    font-size: 18px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
@@ -27,6 +30,7 @@ nav>ul {
     width: 1200px;
     margin: 0 auto;
     padding: 0;
+    color: #fff;
 }
 
 nav a {
@@ -35,14 +39,14 @@ nav a {
     text-decoration: none;
 }
 
-nav ul li {
+nav a nav ul li {
     color: #fff;
     list-style: none;
     transition: 0.5s;
 }
 
 nav>ul>li>a {
-    padding: 15px 25px;
+    padding: 25px 25px;
 }
 
 nav ul>li.submenu>a:after {
@@ -55,16 +59,19 @@ nav ul>li.submenu>a:after {
     border-right: 5px solid transparent;
     border-top: 5px solid #fff;
     border-bottom: 5px solid transparent;
+    color: transparent;
 }
 
 nav ul>li.submenu:hover>a:after {
     margin-top: 2px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid #fff;
+    color: #3f4246;
 }
 
 nav>ul>li:hover {
-    background: white;
+    background: transparent;
+    color: #fff;
 }
 
 
@@ -116,5 +123,5 @@ nav ul.megamenu ul li a {
 
 nav ul.megamenu ul li a:hover {
     color: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(252, 241, 255, 1) 67%, rgba(251, 239, 254, 1) 100%);
-    font-size: 18px;
+    font-size: 20px;
 }
