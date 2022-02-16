@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    margin-left: 710px;
+    font-size: 32px;
+    font-weight: 200;
+    color: #3f4246;
+    min-height: 100vh;
+}
+
+.title_p {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.title_p2 {
+    margin-bottom: 2px;
+    font-size: 18pxpx;
+    line-height: 22px;
+    position: absolut;
+    bottom: 7px;
+}
+
+.button {
+    position: relative;
+    top: 7px;
+}
+
+.button_link {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #669ce6, #b667dd, #f530c9);
+    color: white;
+}
+
+.pic {
+    float: right;
+    position: relative;
+    top: 160px;
+    right: 100px;
+}
+
+.pic {
+    width: 320px;
+    height: 320px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
