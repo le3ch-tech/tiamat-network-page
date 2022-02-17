@@ -6,11 +6,11 @@ html {
     font-size: 30px;
     position: absolute;
     top: 40%;
-    margin-left: 710px;
+    margin-left: 27.5%;
     font-size: 32px;
     font-weight: 200;
     color: #3f4246;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .title_p {
