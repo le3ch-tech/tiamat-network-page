@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&display=swap');
 body {
-    background: #fff;
-    font-family: 'Cairo', sans-serif;
+    background: #fbfbfd;
+    font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -9,10 +9,11 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
+    top: 0%;
     position: absolute;
     width: 100%;
     background: transparent;
@@ -37,6 +38,10 @@ nav a {
     display: block;
     color: #3f4246;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #3f4246;
 }
 
 nav a nav ul li {
@@ -122,6 +127,5 @@ nav ul.megamenu ul li a {
 }
 
 nav ul.megamenu ul li a:hover {
-    color: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(252, 241, 255, 1) 67%, rgba(251, 239, 254, 1) 100%);
     font-size: 20px;
 }

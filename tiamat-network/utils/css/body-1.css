@@ -10,6 +10,7 @@ html {
     font-size: 32px;
     font-weight: 200;
     color: #3f4246;
+    min-height: 10vh;
     /* min-height: 100vh; */
 }
 
@@ -38,6 +39,11 @@ html {
     border-radius: 30px;
     background-image: linear-gradient(to right, #669ce6, #b667dd, #f530c9);
     color: white;
+}
+
+.button_link:hover {
+    font-size: 25px;
+    color: #fff;
 }
 
 .pic {
